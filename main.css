@@ -4,10 +4,15 @@
     --outline: 2px;
     --outline_r: 1px;
     --transition: 200ms ease;
-    --brandColor1 : #2b0248;
+    --brandColor1 : #0a689e;
     --bg-around: #000;
     --glass: rgba(20, 20, 24, 0.65);
     --glass-border: rgba(255, 255, 255, 0.12);
+
+    /* a.btn color variable*/
+    --a-btn-hover-color: #0a689edb;
+    --a-btn-text-color: #fff;
+    --a-btn-shadow: rgba(0, 0, 0, 0.2);
 }
 
 html,body {
@@ -16,6 +21,28 @@ html,body {
     background: var(--bg);
     color: var(--fg);
 }
+
+a.btn{
+display: inline-block;
+    padding: 10px 20px;
+    background-color:var(--brandColor1);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+  a.btn:hover {
+      background: var(--a-btn-hover-color);
+      transform: translateY(-0.5px);
+      box-shadow: 0 6px 16px var(--a-btn-shadow);
+  }
+
+  a.btn:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 6px var(--a-btn-shadow);
+  }
 
 .logo {
     display: flex;
@@ -51,6 +78,11 @@ p.lead {
     padding: 20px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
     margin-top: 20px;
+}
+
+.section {
+    margin-top: 60px;
+    text-align: left;
 }
 
 footer {

@@ -1,0 +1,5 @@
+# robots.txt for montrax.org
+User-agent: *
+Allow: /
+
+Sitemap: https://montrax.org/sitemap.xml

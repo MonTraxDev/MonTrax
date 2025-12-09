@@ -3,13 +3,13 @@ const I18N = {
     "github.link1": "Lien vers le GitHub de l'API",
     "github.link2": "Lien vers le GitHub de cette page web",
     description:
-      " MonTrax est un projet openSource qui a pour objectif d'afficher la postion en direct des train régional de montreal (EXO).",
+      "MonTrax est un projet openSource qui a pour objectif d'afficher la postion en direct des train régional de montreal (EXO).",
     "description.map": "MonTrax Carte",
     "description.api": "MonTrax API",
     about: "À propos",
     "about.des":
       "Comme mentionné plus tôt, MonTrax est un projet open source. Ce projet est lui-même séparé en trois projets distincts, chacun contenant une partie spécifique.",
-    project: "Les trois projet",
+    project: "Les trois projets",
     "project.map": "MonTrax Carte",
     "project.api": "MonTrax API",
     "project.board": "Montrax Planche",

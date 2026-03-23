@@ -88,6 +88,25 @@ p.lead {
   text-align: left;
 }
 
+.divider {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    margin: 40px 0;
+}
+
+
+.mail-link {
+    color: var(--brandColor1);
+    text-decoration: none;
+    border-bottom: 1px solid var(--brandColor1);
+    padding-bottom: 1px;
+    transition: opacity var(--transition);
+}
+
+.mail-link:hover {
+    opacity: 0.7;
+}
+
 footer {
   margin-top: 80px;
   font-size: 0.9rem;

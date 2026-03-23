@@ -78,3 +78,31 @@
 .lang-btn:hover {
     transform: translateY(-1px);
 }
+
+.nav-link-contact {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 1px solid var(--glass-border);
+    transition: background var(--transition), opacity var(--transition);
+}
+
+.nav-link-contact:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-sep {
+    width: 1px;
+    height: 18px;
+    background: var(--glass-border);
+    margin: 0 2px;
+}

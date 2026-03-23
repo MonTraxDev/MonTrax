@@ -14,6 +14,9 @@ const I18N = {
       "TraxAPI est le sous-projet le plus important. En effet, c'est cette section qui est responsable d'aller chercher les données chez EXO, puis de les rendre accessibles à Carte  MonTrax ainsi qu'à TraxPanel prochainement.",
     "project.board": "TraxPanel",
     "project.board.des": "À venir...",
+    contact: "Contact",
+    "contact.des":
+      "Si vous souhaitez nous contacter, vous pouvez le faire à l'adresse suivante :",
   },
   en: {
     "github.link1": "Link to the API GitHub",
@@ -30,5 +33,8 @@ const I18N = {
       "TraxAPI is the most important sub-project. It is this component that is responsible for fetching data from EXO and making it accessible to MonTrax Map, as well as to TraxPanel in the near future.",
     "project.board": "TraxPanel",
     "project.board.des": "Coming soon...",
+    contact: "Contact",
+    "contact.des":
+      "If you wish to contact us, you can do so at the following address:",
   },
 };

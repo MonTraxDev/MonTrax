@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Carte en direct des trains EXO à Montréal — positions et lignes en temps réel."
-    />
-    <meta
-      name="keywords"
-      content="train, EXO, Montréal, mtl train live, carte, map, temps réel, transit, transport"
-    />
-    <title>MonTrax</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="/style/navbar.css" />
-    <link rel="stylesheet" href="/style/imageOverlay.css" />
-    <link rel="icon" type="image/x-icon" href="/assets/Montrax-Icon-V1.svg">
-  </head>
-  <body>
-    <header class="navbar">
-      <div class="container nav-inner">
-        <div class="brand fontConsolas">MonTrax</div>
 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Carte en direct des trains EXO à Montréal — positions et lignes en temps réel." />
+  <meta name="keywords" content="train, EXO, Montréal, mtl train live, carte, map, temps réel, transit, transport" />
+  <title>MonTrax</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="/style/navbar.css" />
+  <link rel="stylesheet" href="/style/imageOverlay.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/Montrax-Icon-V1.svg">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand fontConsolas">MonTrax</div>
+
+
+
+      <div class="right">
+
+        <a href="#contact" class="nav-link-contact">Contact</a>
+        <div class="nav-sep"></div>
         <div class="lang-switch" aria-label="Language switcher">
-          <button class="lang-btn" data-lang="fr" aria-pressed="true">
-            FR
-          </button>
-          <button class="lang-btn" data-lang="en" aria-pressed="false">
-            EN
-          </button>
+          <button class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
         </div>
       </div>
-    </header>
-    <main class="page">
-      <div class="logo">
-        <img src="assets/Montrax-Logo-V2.svg"  />
-      </div>
-      <a href="https://map.montrax.org" data-i18n="project.map" class="btn fontConsolas"">MonTrax Carte</a>
-      <a href="https://github.com/MonTraxDev/MonTrax-API" data-i18n="project.api" class="btn fontConsolas"">MonTrax API</a>
+    </div>
+  </header>
+  <main class="page">
+    <div class="logo">
+      <img src="assets/Montrax-Logo-V2.svg" />
+    </div>
+    <a href="https://map.montrax.org" data-i18n="project.map" class="btn fontConsolas"">MonTrax Carte</a>
+      <a href=" https://github.com/MonTraxDev/MonTrax-API" data-i18n="project.api" class="btn fontConsolas"">MonTrax API</a>
 
-      <div class="section fontConsolas">
-        <h2 data-i18n="about" >À propos</h2>
-        <div class="card fontConsolas">
-          <p data-i18n="about.des">
-          </p>
-        </div>
+      <div class=" section fontConsolas">
+      <h2 data-i18n="about">À propos</h2>
+      <div class="card fontConsolas">
+        <p data-i18n="about.des">
+        </p>
+      </div>
       </div>
 
       <div class="section fontConsolas">
@@ -73,18 +72,30 @@
         </div>
       </div>
 
+      <hr class="divider">
+
+      <div class="section fontConsolas" id="contact">
+        <h2 data-i18n="contact"></h2>
+        <div class="card fontConsolas">
+          <h4 data-i18n="contact.des">
+          </h4>
+          <a class="mail-link" href="mailto:votre@email.com">Info@montrax.org</a>
+        </div>
+      </div>
+
       <div class="overlay" id="overlay" onclick="closeViewer()">
         <span class="close-btn">✕</span>
         <img class="viewer-img" id="viewer-img" src="" />
       </div>
 
-      <footer >
+      <footer>
         <p class="fontConsolas">© 2026 — MonTrax</p>
       </footer>
-    </main>
-  </body>
+  </main>
+</body>
 
-  <script src="/languages/lang.js"></script>
-  <script src="/src/language.js"></script>
-  <script src="main.js"></script>
+<script src="/languages/lang.js"></script>
+<script src="/src/language.js"></script>
+<script src="main.js"></script>
+
 </html>
